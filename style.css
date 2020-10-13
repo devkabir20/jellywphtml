@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@400;500;600;700&display=swap");
+/*  Sass Template*/
+.font-size-13 {
+  font-size: 13px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-17 {
+  font-size: 17px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-arimo {
+  font-family: "Arimo", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.border-radious-4 {
+  border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.color-black-bg {
+  background: #000 !important;
+}
+
+.navhover ul li a {
+  outline: 0;
+  text-decoration: none;
+  position: relative;
+}
+.navhover ul li a::before {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #000;
+  display: block;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0px;
+}
+.navhover ul li a:hover::before {
+  width: 80%;
+  transition: width 0.3s;
+}
+
+.home-img {
+  width: 100%;
+}
+
+.post-margin {
+  margin: 0 -20px;
+}
+
+.mix-post .mix-center {
+  width: 100%;
+  float: left;
+  padding: 0 20px;
+}
+
+.clear-at:after {
+  content: "";
+  clear: both;
+  display: inline;
+}
+
+.mix-center .mix-center-w {
+  float: left;
+  width: 100%;
+  height: 570px;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-img-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.4s ease 0s;
+}
+
+.img-link {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.text-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40px;
+}
+
+.catagory {
+  float: left;
+  width: 100%;
+}
+
+.catagory a {
+  float: left;
+  position: relative;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  padding: 3px 7px;
+  line-height: 1.2;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+.fa-user {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.author-name {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000 !important;
+}
+
+.mix-right {
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.mix-right-w {
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.mix-right-img {
+  width: 120px;
+}
+
+.blog {
+  position: relative;
+  background-color: transparent;
+}
+
+.blog-cat {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.postbox {
+  position: absolute;
+  left: 23%;
+  right: 23%;
+  text-align: center;
+  bottom: 130px;
+}
+
+.s-cat a {
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  padding: 3px 7px;
+  line-height: 1.2;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
